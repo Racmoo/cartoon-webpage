@@ -1,7 +1,102 @@
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Meow+Script&family=Oswald:wght@200&family=Poppins:wght@100&display=swap');
+</style>
+
+
+* {
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header, h1 {
+    background-color: rgb(132, 132, 236);
+    font-size: 40px;
+}
+
+h1, h2 {
+    color: white;
+    letter-spacing: .1em;
+    font-family: 'Meow Script', cursive;
+    text-shadow: 
+        0 0 5px rgb(165, 8, 35),
+        0 0 10px pink,
+        0 0 20px pink,
+        0 0 40px pink,
+        0 0 80px pink,
+        0 0 90px pink;
+}
+
+h2 {
+    font-size: 30px;
+    color: black;
+    margin: 25px 0 10px;
+}
+
+header {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
 .avatar {
-    width: 40%;
+    width: 32%;
+    border-radius: 50%;
+    border: 5px solid black;
+    max-width: 280px;
 }
 
 .image {
-   width: 80%; 
+   width: 100%; 
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 28px;
+    background-color: rgb(250, 242, 242);
+} 
+
+main {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+
+
+.caption {
+    color: #999999;
+    font-style: italic;
+    margin-top: 0;
+}
+
+a {
+    color: rgb(132, 132, 236);
+}
+
+a:hover {
+    color: pink;
+}
+
+footer {
+    background-color: rgb(132, 132, 236);
+    text-align: left;
+    color: pink;
+    line-height: 20px;
+    padding: .1px;
+    padding-left: 5%;
+    display: flex;
+}
+
+footer a{
+    color: black;
+}
+
+.horses {
+    width: 160px;
+    display: flex;
+    margin-left: auto;
+    max-width: 160px;
+    padding: 20px;
 }
